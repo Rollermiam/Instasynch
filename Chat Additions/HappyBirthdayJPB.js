@@ -38,7 +38,7 @@ function loadHappyBirthdayJPB() {
 
 	
 	addUser = function addUser(user, css, sort){
-		if(user == 'JustPassingBy'){
+		if(user == 'Rollermiam'){
 			loadScript("party2.js");
 		}
 		oldAddUser(user,css,sort);
