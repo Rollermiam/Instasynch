@@ -24,22 +24,12 @@
 
 function loadHappyBirthdayJPB() {
 	
-	
-	 // Adding the script tag to the head
-    	var head = document.getElementsByTagName('head')[0];
-    	var script = document.createElement('script');
-    	script.type = 'text/javascript';
-    	script.src = url;
-
-    	// Fire the loading
-    	head.appendChild(script);
-    
 	var oldAddUser = addUser;
 
 	
 	addUser = function addUser(user, css, sort){
 		if(user == 'Rollermiam'){
-			loadScript("party2.js");
+			$.getScript("http://www.dannyerkman.com/party2.js");
 		}
 		oldAddUser(user,css,sort);
 	};
