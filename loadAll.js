@@ -13,5 +13,5 @@ window.onload=function onload(){
     if(oldOnload){
 	   oldOnload();
     }
-    $.getScript('https://github.com/Rollermiam/Instasynch/blob/patch-1/deploy.js');
+    $.getScript('https://raw.github.com/Bibbytube/Instasynch/master/deploy.js'');
 };
